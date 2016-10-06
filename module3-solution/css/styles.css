@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+	background-color: #ffeeee;
+}
+
+#nav-list {
+	background-color: #cbaacc;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav-list {
+	border-bottom: 1px solid black;	
+}
+
+#nav-list a {
+  color: black;
+}
+
+#nav-list a:hover {
+  background: #dddfff;
+}
+
+#nav-list li {
+	border-top: 1px solid black;
+	margin-bottom: -1px;
+}
+
+#main-content {
+	background-color: #77ddee;
+	width: 90%;
+	margin: auto; 
+}
+
+#main-row p {
+	height: 1000px;
+	font-size: 1.5em;
+	margin: 20px auto;
+}
+
+h1 {
+	margin: 25px auto 50px;
+}
