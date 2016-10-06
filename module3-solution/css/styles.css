@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 #header-nav {
 	background-color: #ffeeee;
 }
@@ -30,17 +26,20 @@
 }
 
 #main-content {
-	background-color: #77ddee;
 	width: 90%;
 	margin: auto; 
 }
 
-#main-row p {
-	height: 1000px;
+#main-row section {
+	background-color: #77ddee;
+	min-height: 1000px;
 	font-size: 1.5em;
-	margin: 20px auto;
+	margin-bottom: 30px;
+	padding: 20px;
+	text-align: justify;
 }
 
-h1 {
+
+#top {
 	margin: 25px auto 50px;
 }
